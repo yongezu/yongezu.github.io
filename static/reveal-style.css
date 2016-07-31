@@ -1,0 +1,96 @@
+.reveal {
+    font-family: "ETBembo";
+    font-size: 24px;
+}
+
+.reveal .slides { text-align: left; }
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    font-family: "ETBembo";
+    font-weight: 500;
+}
+
+.reveal h1 {font-size: 150%; font-weight: 600}
+.reveal h2 {font-size: 130%;}
+.reveal h3 {font-size: 120%;}
+.reveal h4 {font-size: 100%;}
+
+.reveal blockquote { 
+    font-style: normal; 
+    border: none;
+    box-shadow: none;
+    border-left: 3px solid #aaa;
+    font-size: inherit;
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+.reveal blockquote blockquote {
+    border: none;
+    margin: 0;
+}
+
+.reveal p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.reveal .column {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.reveal .column:first-child {
+    padding-left: 0;
+}
+.reveal .column:last-child {
+    padding-right: 0;
+}
+
+.reveal .slide-number {
+    font-size: 20pt;
+    font-family: "Roboto";
+    font-weight: 300;
+    background: none;
+    color: black;
+}
+
+/* Undo bootstrap */
+
+hr {
+    border-color: #888;
+}
+
+blockquote blockquote {
+    border-left: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+}
+
+table {
+    width: 100%;
+    font-family: Roboto;
+    font-size: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table td {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table th {
+    background: #eee;
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+code,
+pre {
+    color: inherit;
+}
